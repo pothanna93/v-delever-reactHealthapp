@@ -1,0 +1,106 @@
+.home-app-container {
+  min-height: 100vh;
+  padding: 16px;
+}
+.home-responsive-div {
+  min-height: 100vh;
+}
+.search-test-report-div {
+  display: flex;
+
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .search-test-report-div {
+    flex-direction: column;
+  }
+}
+.test-report {
+  border: 2px solid black;
+  flex-grow: 1;
+  margin: 4px;
+  border-radius: 12px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b5db4b;
+}
+.search-container {
+  border: 2px solid #6acc9b;
+  background-color: #cae6d8;
+  flex-grow: 1;
+  margin: 4px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.input-element {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 16px;
+  background-color: transparent;
+}
+.search-icon {
+  width: 50px;
+  font-size: 20px;
+}
+.ul-services {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list-item {
+  background-color: #dae6e8;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 12px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consult-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-div {
+  background-color: #6acc9b;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.discount-container {
+  padding: 16px;
+}
+.test-link {
+  font-size: 18px;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #9f4bdb;
+}
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.service-title {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Roboto";
+}

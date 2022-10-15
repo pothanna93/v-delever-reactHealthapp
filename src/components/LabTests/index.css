@@ -1,0 +1,17 @@
+.lab-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lab-title {
+  font-size: 40px;
+  font-family: "Roboto";
+  color: #4c4f9c;
+}
+.note-des {
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #4c9c5d;
+}
